@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+
+}
+
+body{
+
+    color: white;
+    background-image: url(images/pexels-simon-berger-1323550.jpg);
+    background-size: cover;
+    
+}
+.title{
+    text-align: center;
+    margin: 30px 0;
+    color: black;
+    font-size: 25px;
+}
+
+.output{
+    background-color: black;
+    color: white;
+    margin: 0 20%;
+    margin-top: 17%;
+    border-radius: 10px;
+    border: 20px black;
+}
+.output p{
+    align-items: center;
+    margin-left: 30%;
+    padding: 10px 0;
+    font-size: 25px;
+}
+.output ul li{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 25px;
+
+}
+.refresh h2{
+    font-size: 20px;
+    text-align: center;
+    color: red;
+}
+
+.para{
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    margin: 0 50px;
+    margin-top: 18%;
+    padding: 10px 10px;
+    background-color: black;
+    border-radius: 10px;
+    
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Password Generater</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
+    <script defer src="https://pyscript.net/latest/pyscript.js"></script>
+</head>
+<body>
+    <div id="top">
+        <div class="title">
+            <h1>Random Password Generator</h1>
+            
+        </div>
+
+
+        
+        <div class="output">
+            <p>Password Is <u><label id="enter"></label></u></p>
+            
+        </div>   
+        <div class="refresh">
+            <h2>Refresh the page to generate new <span>password</span></h2>
+        </div>
+        <div class="para">
+            <p>This is simple website in which you can generate any random password, it is part of
+                project .The languages which are used is HTML, CSS & Python
+            </p>
+        </div>
+        
+    </div>
+</div>
+
+<py-script>
+    import random
+
+
+    pass1 = ['a','b','c','d','e','f','g',
+            'h','i','j','k','l','m','n',
+            'o','p','q','r','s','t','u',
+            'v','w','x','y','x','A','B',
+            'C','D','E','F','G','H','I',
+            'J','K','L','M','N','O','P',
+            'Q','R','S','T','U','W','X',
+            'Y','Z','1','2','3','4','5',
+            '6','7','8','9','0', '#','$']
+
+    password = ""
+    
+    for x in range(10):
+        password = password + random.choices(pass1)[0]
+
+    pyscript.write('enter',password)
+</py-script>
+
+
+</body>
+</html>

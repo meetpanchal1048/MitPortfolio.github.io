@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="icon" type="image/x-icon" href="ipimages/logo.png">
+<title>Apple</title>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+  background-color: white;
+  animation-name: example;
+  animation-duration: 7s;
+  animation-iteration-count:1;
+}
+
+@keyframes example {
+  25%   {background-color:rgb(77, 76, 76); left:0px; top:0px;}
+  100%  {background-color:white; left:200px; top:0px;}
+
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column {
+    -ms-flex: 25%;
+    flex: 25%;
+    max-width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+</style>
+</head>
+<body>
+
+<div class="header">
+    <img src="ipimages/logo.png" style="width: 10%;">
+  
+</div>
+
+<div class="row"> 
+  <div class="column">
+    <img src="ipimages/ip1.jpg" style="width:100%" onclick="window.location.href='ipimages/ip1.jpg'">
+    <img src="ipimages/ip2.jpg" style="width:100%" onclick="window.location.href='ipimages/ip2.jpg'">
+    <img src="ipimages/ip3.jpg" style="width:100%" onclick="window.location.href='ipimages/ip3.jpg'">
+    <img src="ipimages/ip4.jpg" style="width:100%" onclick="window.location.href='ipimages/ip4.jpg'">
+    <img src="ipimages/ip5.jpg" style="width:100%" onclick="window.location.href='ipimages/ip5.jpg'">
+    <img src="ipimages/ip6.jpg" style="width:100%" onclick="window.location.href='ipimages/ip6.jpg'">
+  </div>
+  <div class="column">
+    <img src="ipimages/ip3.jpg" style="width:100%" onclick="window.location.href='ipimages/ip3.jpg'">
+    <img src="ipimages/ip5.jpg" style="width:100%" onclick="window.location.href='ipimages/ip5.jpg'">
+    <img src="ipimages/ip1.jpg" style="width:100%" onclick="window.location.href='ipimages/ip1.jpg'">
+    <img src="ipimages/ip6.jpg" style="width:100%" onclick="window.location.href='ipimages/ip6.jpg'">
+    <img src="ipimages/ip2.jpg" style="width:100%" onclick="window.location.href='ipimages/ip2.jpg'">
+    <img src="ipimages/ip4.jpg" style="width:100%" onclick="window.location.href='ipimages/ip4.jpg'">
+  </div>  
+  
+</div>
+
+</body>
+</html>
