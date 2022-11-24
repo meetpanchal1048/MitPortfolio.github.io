@@ -359,10 +359,11 @@ nav .fa-bars i{
 
 @media only screen and (max-width: 600px){
     #header{
-        background-image: url(images/IMG_20221117_175229.jpg);
+        background-image: url(images/pexels-adrien-olichon-2931286.jpg);
     }
     .header-text{
-        margin-top: 100%;
+        margin-top: 90%;
+        margin-left: 10%;
         font-size: 16px;
     }
     .header-text h1{
@@ -418,6 +419,9 @@ nav .fa-bars i{
     }
     .copyright{
         font-size: 14px;
+    }
+    .work-list{
+        margin-left: 10%;
     }
 }
 
